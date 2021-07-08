@@ -108,6 +108,7 @@
   text-decoration: none;
   font-size: 18px;
   font-weight: bold;
+  cursor: pointer;
 }
 
 @media(max-width: 1020px){
