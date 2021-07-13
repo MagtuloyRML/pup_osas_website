@@ -16,39 +16,36 @@
   margin: 30px 0px 0px 30px;
   font-size: 26px;
   font-weight: 700;
-}
   
-.top-box{
-  justify-items: center;
-  max-width: 350px;
-  margin: 40px 35px;
+}
+.cont{
+  padding: 20px;
   display: grid;
-  grid-gap: 20px;
-  grid-template-areas: 
-    'studentInfo studentInfo top-box-a'
-    'studentInfo studentInfo top-box-b';
+  grid-template-columns: 1fr 1fr;
+  gap: 30px;
+
+}
+
+.top-box{
+  max-width: 350px;
+  gap: 20px;
+  margin: 10px;
 }
 
 .top-box input{
   height: 50px;
-  width: 350px;
+  width: 330px;
   outline: none;
   padding-left: 10px;
-  margin-left: 30px;
+  margin-left: 25px;
   border-radius: 5px;
   border: 1px solid rgb(240, 240, 240);
   font-size: 14px;
   transition: all 0.3s ease;
 }
 
-.top-box-a{
-  grid-area: top-box-a;
-}
-.top-box-b{
-  grid-area: top-box-b;
-}
-
-.top-box a{
+.top-box-bttn a{
+  margin: 20px;
   color: #fff;
   background: #111;
   text-decoration: none;
@@ -59,22 +56,27 @@
   letter-spacing: 1px;
   transition: all 0.3s ease;
 }
-.top-box a:hover{
+.top-box-bttn a:hover{
   color: #fff;
   background: rgba(63, 63, 63, 0.692);
 }
 
-@media(max-width: 1369px){
-  .top-box{
-    grid-template-areas: 
-    'studentInfo studentInfo'
-    'top-box-a top-box-b';
+
+@media(max-width: 978px){
+  .cont{
+    grid-template-columns: 1fr;
+
+    /*grid-template-rows: 0.2fr 3fr;*/
   }
 }
-@media(max-width: 1054px){
+@media(max-width: 855px){
   .top-box{
-    grid-template-areas: 
-    'top-box-a'
-    'top-box-b';
+    grid-template-columns: 1fr;
+    gap: 10px;
+    margin-bottom: 0;
+  }
+  .top-box input{
+    padding-left: 5px;
+    margin-left: 5px;
   }
 }

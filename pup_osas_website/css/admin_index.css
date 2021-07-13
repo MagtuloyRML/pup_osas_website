@@ -4,18 +4,20 @@
     z-index: -1;
     margin: 40px 10%;
     min-width: 400px;
-    height: 500px;
+    height: auto;
     width: 80%;
     color: #1b1b1b;
     background-color: #fff;
     border: #fff;
     border-radius: 30px;
+    padding-bottom: 50px;
   }
   
 .content h2{
   margin: 30px 0px 0px 30px;
   font-size: 26px;
   font-weight: 700;
+  padding: 30px;
 }
 .main__cards {
   padding: 20px;
@@ -44,4 +46,32 @@
 
 .card_inner > span {
   font-size: 25px;
+}
+
+.charts {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px;
+  margin: 20px;
+  text-align: center;
+  box-shadow: 5px 5px 13px #ededed, -5px -5px 13px #ffffff;
+}
+
+.chart canvas{
+  margin: 20px;
+  width: 50px;
+}
+
+@media(max-width: 978px) {
+  .content {
+    grid-template-columns: 1fr;
+    /* grid-template-rows: 0.2fr 2.2fr; */
+  }
+}
+@media(max-width: 855px) {
+  .main__cards {
+    grid-template-columns: 1fr;
+    gap: 10px;
+    margin-bottom: 0;
+  }
 }

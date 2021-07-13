@@ -91,12 +91,13 @@ form .row input::placeholder{
   background: #1b1b1b;
   cursor: pointer;
 }
+
 form .button input:hover{
   background: #3f4140;
 }
 .wrapper form .signup-link{
   text-align: center;
-  margin-top: 20px;
+  margin: 10px;
   font-size: 17px;
 }
 .wrapper form .signup-link a{
