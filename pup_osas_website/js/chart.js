@@ -15,7 +15,7 @@ let chart1 = new Chart(myDoughnutChart, {
     },
     options: {
         title: {
-            text: "",
+            text: "Total Client",
             display: true
         }
     }

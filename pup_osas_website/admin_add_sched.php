@@ -4,8 +4,7 @@
     <meta charset="utf-8">
     <title>PUP OSAS Admin Page</title>
     <link rel="stylesheet" href="css/admin_nav_style.css">
-    <link rel="stylesheet" href="css/admin_acc.css">
-    <link rel="stylesheet" href="css/logout_modal.css">
+    <link rel="stylesheet" href="css/admin_add_sched.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"/>
   </head>
   <body>
@@ -20,15 +19,18 @@
         <ul class="list-items">
           <li><a href="admin_index.php"><i class="fas fa-chart-area"></i>Overview</a></li>
           <li><a href="admin_clients.php"><i class="fas fa-address-book"></i>Clients</a></li>
-          <li><a class="active" href="admin_acc.php"><i class="fas fa-user"></i>User</a></li>
+          <li><a href="admin_acc.php"><i class="fas fa-user"></i>User</a></li>
           <li><a href="admin_notif.php"><i class="fas fa-bell"></i>Notification</a></li>
-          <li><a href="admin_sched.php"><i class="fas fa-calendar-day"></i>Available Sched</a></li>
+          <li><a class="active" href="admin_sched.php"><i class="fas fa-calendar-day"></i>Available Sched</a></li>
         </ul>
       </nav>
     </div>
+    <!--<input type="date" id="appoint-date">-->
     <section class="content">
+      <h2 class="title">Add Available Schedule</h2>
+      <div class="top-box">
       <form id="studentInfo" action="#">
-      <h2>Profile</h2>
+      <h3>Fill up Schedule Info</h3>
       <div class="cont">
         <div class="top-box">
           <div>
@@ -63,24 +65,9 @@
 			    <a href="#" class="btn" id="bttnLogOut">Log Out</a>
 		    </div>
 		  </div>
-    </section>
+      </form>
+  </section>
 
-    <div id="modalLogOut" class="logOutModal">
-      <div class="modalContent">
-        <div class="modalHeader">
-          <button type="button" class="closeBtn" data-dismiss="modal">&times;</button>
-        </div>
-        <div class="modalBody">
-          <h2>Are you sure you want to Log out?</h2>
-        </div>
-        <div class="modalFooter">
-          <button type="button" class="btn btn-cancel" data-dismiss="modal">No</button>
-          <button type="button" class="btn btn-logout" onclick="location.href='user_login.html';">Yes</button>
-        </div>
-      </div>
-    </div>
-  
-    <script src="js/modalLogout.js"></script>
-    
+  <!--<script src="js/app_date_time.js"></script>-->
   </body>
 </html>

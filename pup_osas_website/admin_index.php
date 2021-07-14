@@ -23,7 +23,6 @@
           <li><a href="admin_acc.php"><i class="fas fa-user"></i>User</a></li>
           <li><a href="admin_notif.php"><i class="fas fa-bell"></i>Notification</a></li>
           <li><a href="admin_sched.php"><i class="fas fa-calendar-day"></i>Available Sched</a></li>
-          <li><a href="admin_add_admin.php"><i class="fas fa-user-plus"></i>Add Admin</a></li>
         </ul>
       </nav>
     </div>
@@ -57,7 +56,26 @@
         </div>
 
         <div class="chart">
+
           <canvas id="myChart"></canvas>
+
+          <div class="app-transac">
+          <h2>Previous Appoinment</h2>
+          <table class="app-td-list">
+             <tr class="app-title">
+               <th>Student Name</th>
+               <th>Student Number</th>
+               <th>Appointment Date and Time</th>
+               <th>Status</th>
+             </tr>
+             <tr class="app-td-item">
+              <td>Student Name</th>
+              <td>Student Number</td>
+              <td>Date and Time</th>
+              <td>Status</th>
+            </tr>
+          </table>
+          </div>
         </div>
       </div>
       

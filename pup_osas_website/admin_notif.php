@@ -22,7 +22,6 @@
           <li><a href="admin_acc.php"><i class="fas fa-user"></i>User</a></li>
           <li><a class="active" href="admin_notif.php"><i class="fas fa-bell"></i>Notification</a></li>
           <li><a href="admin_sched.php"><i class="fas fa-calendar-day"></i>Available Sched</a></li>
-          <li><a href="admin_add_admin.php"><i class="fas fa-user-plus"></i>Add Admin</a></li>
         </ul>
       </nav>
     </div>
