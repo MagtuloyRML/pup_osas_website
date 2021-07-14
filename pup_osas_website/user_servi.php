@@ -84,10 +84,10 @@
                <th>Status</th>
              </tr>
              <tr class="app-td-item">
-              <td>Student Name</th>
+              <td>Student Name</td>
               <td>Student Number</td>
-              <td>Date and Time</th>
-              <td>Status</th>
+              <td>Date and Time</td>
+              <td>Status</td>
             </tr>
           </table>
           </div>
