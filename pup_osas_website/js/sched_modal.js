@@ -31,3 +31,20 @@ closeModal3.onclick = function() {
 closeModal4.onclick = function() {
   modalEdit.style.display = "none";
 }
+
+//open appoint sched stud modal
+var modalAddsched = document.getElementById("modalAddApp");
+var addAppBttn = document.getElementById("bttnAddAppSched");
+var closeModal5 = document.getElementsByClassName("addCloseBtn")[0];
+var closeModal6 = document.getElementsByClassName("btn addBtn-cancel")[0];
+
+
+addAppBttn.onclick = function() {
+    modalAddsched.style.display = "block";
+  }
+closeModal5.onclick = function() {
+    modalAddsched.style.display = "none";
+  }
+closeModal6.onclick = function() {
+    modalAddsched.style.display = "none";
+  }

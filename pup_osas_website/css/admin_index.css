@@ -48,33 +48,27 @@
   font-size: 25px;
 }
 
-.charts {
-  padding: 20px;
+.chart {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 30px;
-  margin: 20px;
-}
-
-.chart canvas{
-  margin: 20px;
-  width: 50px;
-  display: flex;
-  flex-direction: column;
   justify-content: space-around;
+  flex-direction: column;
+  gap: 10px;
+  margin: 15px 15px -15px 15px;
 }
 
 .app-transac{
+  padding-bottom: 10px;
   justify-content: center;
-  margin: 30px 30px;
+  margin: 10px 20px;
   min-width: 330px;
   width: 95%;
-  height: 350px;
+  height: auto;
   background-color: rgba(236, 236, 236, 0.938);
-  border: rgba(236, 236, 236, 0.938);
   border-radius: 30px;
 }
 .app-transac h2{
+  margin-top: 0px;
   font-size: 18px;
   font-weight: 700;
   color: #fff;
@@ -95,6 +89,7 @@
   border: 1px solid #dddddd;
   text-align: left;
   padding: 8px; 
+  font-size: small;
 }
 .app-transac .app-td-list .app-title{
   color: #fff;
@@ -102,11 +97,10 @@
 }
 
 @media(max-width: 978px) {
-  .content {
+  .content, .chart{
     grid-template-columns: 1fr;
-    /* grid-template-rows: 0.2fr 2.2fr; */
   }
-  .add-sched, .app-sched, .app-transac{
+  .add-sched, .app-sched, .app-transac, .app-transac canvas{
     width: 90%;
   }
 }

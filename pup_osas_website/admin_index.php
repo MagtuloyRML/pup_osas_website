@@ -56,31 +56,39 @@
         </div>
 
         <div class="chart">
-
-          <canvas id="myChart"></canvas>
-
           <div class="app-transac">
-          <h2>Previous Appoinment</h2>
-          <table class="app-td-list">
-             <tr class="app-title">
-               <th>Student Name</th>
-               <th>Student Number</th>
-               <th>Appointment Date and Time</th>
-               <th>Status</th>
-             </tr>
-             <tr class="app-td-item">
-              <td>Student Name</th>
-              <td>Student Number</td>
-              <td>Date and Time</th>
-              <td>Status</th>
-            </tr>
-          </table>
+            <canvas id="myChart"></canvas>
+          </div>
+          <div class="app-transac">
+            <h2>Previous Appoinment</h2>
+            <table class="app-td-list">
+              <tr class="app-title">
+                <th>Student Name</th>
+                <th>Student Number</th>
+                <th>Appointment Date and Time</th>
+                <th>Status</th>
+              </tr>
+              <tr class="app-td-item">
+                <td>Student Name</th>
+                <td>Student Number</td>
+                <td>Date and Time</th>
+                <td>Status</th>
+              </tr>
+              <tr class="app-td-item">
+                <td>Student Name</th>
+                <td>Student Number</td>
+                <td>Date and Time</th>
+                <td>Status</th>
+              </tr>
+            </table>
           </div>
         </div>
       </div>
       
     </section>
 
+
   <script src="js/chart.js"></script>
+  
   </body>
 </html>

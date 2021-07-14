@@ -134,6 +134,7 @@
                     <option value="#">Start time - End Time</option>
                     <option value="#">Start time - End Time</option>
                   </select>
+                </div>
 			          <div>
                   <h5>Schedule Status</h5>
                   <select name="sched_urgency" id="sched_urgency" readonly>
@@ -180,7 +181,7 @@
   <!--avoid pressing past date-->
   <script src="js/app_date_time.js"></script>
 
-  <!--modal add sched-->
+  <!--modal add and edit sched-->
   <script src="js/sched_modal.js"></script>
   
 
