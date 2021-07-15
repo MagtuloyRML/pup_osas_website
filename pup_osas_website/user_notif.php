@@ -4,6 +4,7 @@
     <meta charset="utf-8">
     <title>Notification | PUPBC OSAS</title>
     <link rel="stylesheet" href="css/nav_style.css">
+    <link rel="stylesheet" href="css/user_notif.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
@@ -21,13 +22,14 @@
         <li class="nav_bttn"><a href="user_acc.php">User</a></li>
     </ul>
     </nav>
-    <div class="content">
-        <div>
+    <section class="content">
+        <h2>Notification</h2>
+        <div class="top-box top-box-a">
             
         </div>
-        <div>
+        <div class="top-box top-box-b">
             
-        </div>
-    </div>
+        </div> 
+    </section>
 </body>
 </html>
