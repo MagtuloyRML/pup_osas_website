@@ -60,6 +60,10 @@
             <canvas id="myChart"></canvas>
           </div>
           <div class="app-transac">
+            <canvas id="myMonthlyApp">
+          </div>
+        </div>
+        <div class="app-transac1">
             <h2>Previous Appoinment</h2>
             <table class="app-td-list">
               <tr class="app-title">
@@ -82,13 +86,12 @@
               </tr>
             </table>
           </div>
-        </div>
       </div>
+
       
     </section>
 
-
-  <script src="js/chart.js"></script>
+  <script src="js/chart_index.js"></script>
   
   </body>
 </html>
