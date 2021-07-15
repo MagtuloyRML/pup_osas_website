@@ -1,0 +1,166 @@
+.modalAppSched{
+    display: none;
+    position: fixed;
+    z-index: 10;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    overflow:auto;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.modalAppSched .modalContent{
+    border: #fff;
+    border-radius: 20px;
+    background-color: #f4f4f4;
+    margin: 45px auto;
+    width: 525px;
+    box-shadow: 0 5px 8px 0 rgba(0,0,0,0.2),0 7px 20px 0 rgba(0,0,0,0.17);
+}
+
+.modalAppEditSched{
+    display: none;
+    position: fixed;
+    z-index: 10;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    overflow:auto;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.modalAppEditSched .modalContent{
+    border: #fff;
+    border-radius: 20px;
+    background-color: #f4f4f4;
+    margin: 45px auto;
+    width: 650px;
+    box-shadow: 0 5px 8px 0 rgba(0,0,0,0.2),0 7px 20px 0 rgba(0,0,0,0.17);
+}
+
+.modalHeader{
+    padding: 10px 15px 10px 15px;
+    height: 50px;
+}
+.modalHeader button{
+    width: 30px;
+    background-color: #fff;
+    border-radius: 10px;
+    border: none;
+    float: right;
+    color: #1b1b1b;
+    font-weight: bold;
+    font-size: 20px;
+    cursor: pointer;
+}
+.modalBody{
+    height: auto;
+    margin: 10px;
+}
+.modalBody h2{
+    padding-left: 15px;
+    float: left;
+    font-size: 20px;
+}
+.modalBody .cont{
+    margin: 10px;
+}
+.modalBody .cont .top-box div input,
+.modalBody .cont .top-box div select{
+    height: 40px;
+    width: 85%;
+    outline: none;
+    padding-left: 10px;
+    margin-left: 25px;
+    border-radius: 5px;
+    border: 1px solid rgb(240, 240, 240);
+    font-size: 14px;
+    transition: all 0.3s ease;
+}
+
+.modalBody .cont .top-box div textarea{
+    height: 250px;
+    width: 85%;
+    outline: none;
+    padding-left: 10px;
+    margin-left: 25px;
+    border-radius: 5px;
+    border: 1px solid rgb(240, 240, 240);
+    font-size: 14px;
+    transition: all 0.3s ease;
+}
+
+.modalAppEditSched .modalBody .cont{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;  
+}
+.modalAppEditSched .modalBody .cont .top-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.modalFooter{
+    height: 60px;
+    margin: 10px;
+}
+.modalAppSched .modalFooter{
+    height: 90px;
+}
+
+.modalFooter button{
+    padding: 10px;
+    width: auto;
+    background-color: #fff;
+    border-radius: 10px;
+    margin: 5px 10px;
+    border: none;
+    float: right;
+    color: #1b1b1b;
+    font-weight: bold;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.modalHeader button:hover,
+.modalFooter button:hover{
+    color: #fff;
+    background-color: #1b1b1b;
+}
+@media (max-width: 1040px){
+    .modalAppEditSched .modalContent,
+    .modalAppSched .modalContent{
+        width: 80%;
+    }
+    .modalAppEditSched .modalFooter{
+        height: 130px;
+    }
+    .modalAppEditSched .modalBody .cont .top-box textarea,
+    .modalAppEditSched .modalBody .cont .top-box input,
+    .modalAppEditSched .modalBody .cont .top-box select,
+    .modalAppSched .modalBody .cont .top-box textarea,
+    .modalAppSched .modalBody .cont .top-box input,
+    .modalAppSched .modalBody .cont .top-box select{
+        width: 90%;
+    }
+}
+
+@media(max-width: 855px){
+    .modalAppEditSched .modalBody .cont .top-box textarea,
+    .modalAppEditSched .modalBody .cont .top-box input,
+    .modalAppEditSched .modalBody .cont .top-box select,
+    .modalAppSched .modalBody .cont .top-box textarea,
+    .modalAppSched .modalBody .cont .top-box input,
+    .modalAppSched .modalBody .cont .top-box select{
+        padding-left: 5px;
+        margin-left: 5px;
+    }
+    .modalAppEditSched .modalBody .cont {
+        grid-template-columns: 1fr;
+        gap: 10px;
+        margin-bottom: 0;
+      }
+}

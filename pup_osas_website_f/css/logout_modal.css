@@ -1,0 +1,72 @@
+.logOutModal{
+    display: none;
+    position: fixed;
+    z-index: 10;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    overflow:auto;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.logOutModal .modalContent{
+    border: #fff;
+    border-radius: 20px;
+    background-color: #f4f4f4;
+    margin: 150px auto;
+    width: 40%;
+    box-shadow: 0 5px 8px 0 rgba(0,0,0,0.2),0 7px 20px 0 rgba(0,0,0,0.17);
+}
+
+.modalHeader{
+    padding: 10px 15px 10px 15px;
+    height: 50px;
+}
+.modalHeader button{
+    width: 30px;
+    background-color: #fff;
+    border-radius: 10px;
+    border: none;
+    float: right;
+    color: #1b1b1b;
+    font-weight: bold;
+    font-size: 20px;
+    cursor: pointer;
+}
+.modalBody{
+    height: 50px;
+    margin: 10px;
+}
+.modalBody h2{
+    padding-left: 15px;
+    float: left;
+    font-size: 20px;
+}
+.modalFooter{
+    height: 50px;
+    margin: 10px;
+}
+.modalFooter button{
+    width: 75px;
+    background-color: #fff;
+    border-radius: 10px;
+    margin: 5px 10px;
+    border: none;
+    float: right;
+    color: #1b1b1b;
+    font-weight: bold;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.modalHeader button:hover,
+.modalFooter button:hover{
+    color: #fff;
+    background-color: #1b1b1b;
+}
+@media (max-width: 1040px){
+    .logOutModal .modalContent{
+        width: 55%;
+    }
+}
