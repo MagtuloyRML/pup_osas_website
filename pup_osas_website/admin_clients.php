@@ -67,18 +67,28 @@
               <h5>Schedule Time</h5>
               <input placeholder="Schedule Time" class="prev_time" type="text" id="prev_time" readonly>
 						</div>
+            <div>
+              <h5>Schedule Status</h5>
+              <input placeholder="Schedule Status" class="sched_status" type="text" id="sched_status" readonly>
+			      </div>
 			      <div>
               <h5>Status</h5>
-              <input placeholder="Status" class="prev_status" type="text" id="nprev_status" readonly>
+              <input placeholder="Status" class="client_status" type="text" id="client_status">
 			      </div>
           </div>
 
 					<div class="top-box">
+            <div>
+              <h5>Purpose in Appointment</h5>
+							<textarea name="message" placeholder="Purpose of Appointment" readonly></textarea>
+			      </div>
 						<div>
               <h5>Evaluation in Appointment</h5>
-							<textarea name="message" placeholder="Purpose of Appointment"></textarea>
+							<textarea name="message" placeholder="Evaluation of Appointment" ></textarea>
 			      </div>
             <div>
+              <button type="button" class="btn-prv"><i class="fas fa-caret-left"></i></button>
+              <button type="button" class="btn-prv"><i class="fas fa-caret-right"></i></button>
               <button type="button" class="btn-prv"><i class="fas fa-caret-left"></i></button>
               <button type="button" class="btn-prv"><i class="fas fa-caret-right"></i></button>
             </div>
