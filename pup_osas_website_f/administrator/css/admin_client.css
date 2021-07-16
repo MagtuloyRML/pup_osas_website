@@ -130,7 +130,7 @@
 
 .top-box textarea{
   height: 130px;
-  width: 300px;
+  width: 100%;
   outline: none;
   padding-left: 10px;
   margin-left: 25px;
@@ -138,6 +138,7 @@
   border: 1px solid rgb(240, 240, 240);
   font-size: 14px;
   transition: all 0.3s ease;
+  resize: none;
 }
 
 .top-box button{

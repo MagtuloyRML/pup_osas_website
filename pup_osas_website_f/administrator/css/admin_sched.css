@@ -27,6 +27,14 @@
   border: rgba(233, 233, 233, 0.884);
   border-radius: 30px;
 }
+
+.add-sched h3{
+  padding-top: 15px;
+  margin: 0px 0px 0px 30px;
+  font-size: 20px;
+  font-weight: 700;
+}
+
 .app-sched h2{
   font-size: 18px;
   font-weight: 700;
