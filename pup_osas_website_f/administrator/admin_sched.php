@@ -42,6 +42,7 @@
       </div>
       <div class="top-box top-box-b">
         <div class="add-sched">
+        <h3>Schedule Appointment</h3>
           <div class="add-app-sched">
             <input class="bttn" type="button" id="bttnAddSched" value="Add Schedule Appointment" >
             <input class="bttn" type="button" id="bttnEditSched" value="Edit Schedule Appointment" >
@@ -50,7 +51,7 @@
       </div>
       <div class="top-box top-box-c">
         <div class="app-transac">
-          <h2>Previous Appoinment</h2>
+          <h2>Appointment</h2>
           <table class="app-td-list">
              <tr class="app-title">
                <th>Student Name</th>
